@@ -8,6 +8,11 @@
             "Daniella\\VendingMachine\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Daniella\\VendingMachine\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Daniella Alamo",

@@ -1,0 +1,13 @@
+services:
+  vending-machine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vending-machine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: vendor/bin/phpunit
+    stdin_open: true
+    tty: true
+
